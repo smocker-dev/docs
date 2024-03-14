@@ -1,0 +1,4 @@
+.docusaurus/
+.husky/
+build/
+node_modules
