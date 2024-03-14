@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="docs/static/img/logo-horizontal.png" alt="Smocker" height="100" title="Smocker logo by mandyellow" />
+  <img src="./static/img/logo-horizontal.png" alt="Smocker" height="100" title="Smocker logo by mandyellow" />
 </h1>
 
-[![Netlify Status](https://img.shields.io/netlify/61d4e090-b242-419f-8d69-e9dee3d50a37?logo=netlify)](https://app.netlify.com/sites/smocker/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/709d726b-df62-4a80-ae54-c28f72a8f019/deploy-status)](https://app.netlify.com/sites/smocker-dev-docs/deploys)
 [![License](https://img.shields.io/github/license/smocker-dev/docs?logo=open-source-initiative)](https://github.com/smocker-dev/docs/blob/main/LICENSE)
 
 This repository contains the official Smocker documentation.
