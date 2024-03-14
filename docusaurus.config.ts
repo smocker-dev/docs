@@ -110,6 +110,17 @@ const config: Config = {
       },
       items: [
         {
+          type: "doc",
+          position: "left",
+          docId: "guide/intro",
+          label: "Documentation",
+        },
+        {
+          to: "resources",
+          position: "left",
+          label: "Resources",
+        },
+        {
           href: "https://github.com/Thiht/smocker",
           label: "GitHub",
           position: "right",
