@@ -14,7 +14,7 @@ docker run -d \
   -p 8080:8080 \
   -p 8081:8081 \
   --name smocker \
-  thiht/smocker
+  ghcr.io/smocker-dev/smocker
 ```
 
 or with TLS enabled:
@@ -28,7 +28,7 @@ docker run -d \
   -v /path/to/your/cert.pem:/etc/smocker/tls/certs/cert.pem:ro \
   -v /path/to/your/key.pem:/etc/smocker/tls/private/key.pem:ro \
   --name smocker \
-  thiht/smocker
+  ghcr.io/smocker-dev/smocker
 ```
 
 ## Manual Deployment
@@ -40,7 +40,7 @@ The official binaries are currently built for Linux only. This is not a hard lim
 ```sh
 # This will be the deployment folder for the Smocker instance
 mkdir -p /opt/smocker && cd /opt/smocker
-wget -P /tmp https://github.com/Thiht/smocker/releases/latest/download/smocker.tar.gz
+wget -P /tmp https://github.com/smocker-dev/smocker/releases/latest/download/smocker.tar.gz
 tar xf /tmp/smocker.tar.gz
 rm /tmp/smocker.tar.gz
 

@@ -196,7 +196,7 @@ Let's synthesize this in a docker-compose file:
 version: "3"
 services:
   smocker:
-    image: thiht/smocker
+    image: ghcr.io/smocker-dev/smocker
     ports:
       - 8080:8080
       - 8081:8081
@@ -366,4 +366,4 @@ To simply describe the above test, Venom will:
   - Display the Venom call in Smocker's history. \
     If we had made the call directly on the `reservations` service, we would only have the call to the `users` service on Smocker's history.
 
-For real Venom tests examples, we invite you to check [Smocker's test suite](https://github.com/Thiht/smocker/tree/master/tests/features).
+For real Venom tests examples, we invite you to check [Smocker's test suite](https://github.com/smocker-dev/smocker/tree/main/tests/features).
