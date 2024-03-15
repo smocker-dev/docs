@@ -121,7 +121,7 @@ const config: Config = {
           label: "Resources",
         },
         {
-          href: "https://github.com/Thiht/smocker",
+          href: "https://github.com/smocker-dev/smocker",
           label: "GitHub",
           position: "right",
         },
